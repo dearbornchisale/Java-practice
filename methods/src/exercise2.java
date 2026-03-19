@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class exercise2 {
     public static int[] combineArrays(int[] arr1, int[] arr2) {
@@ -11,7 +10,6 @@ public class exercise2 {
     }
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
 
         int arr1[] = { 1, 2, 3, 4 };
         int arr2[] = { 5, 6, 7, 8, 9 };
