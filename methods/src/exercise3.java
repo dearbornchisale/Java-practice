@@ -1,3 +1,5 @@
+
+
 import java.util.Scanner;
 
 public class exercise3 {
@@ -48,7 +50,7 @@ public class exercise3 {
         int[] result = findPrimesInRange(start, end);
 
         for (int num : result) {
-            System.out.print(result + " ");
+            System.out.print(num + " ");
         }
 
     }
