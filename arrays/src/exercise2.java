@@ -112,10 +112,5 @@ public class exercise2 {
         System.out.println("Students above average: " + countAboveAverage(grades, average ));
 
         displayGradeDistribution(grades);
-        
-
-
-
-
     }
 }
