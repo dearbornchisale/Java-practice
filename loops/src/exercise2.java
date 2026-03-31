@@ -27,7 +27,7 @@ public class exercise2 {
             String ans = input.next().toUpperCase();
 
             if (!ans.equals("YES")) {
-                playAgain = false;
+                playAgain = false;  
             }
 
         }
