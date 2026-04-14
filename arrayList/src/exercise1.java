@@ -110,6 +110,5 @@ public class exercise1 {
         System.out.println("After removing duplicates: ");
 
         displayPlaylist(songList, "Heavy Rotation");
-
-    }
+     }
 }
