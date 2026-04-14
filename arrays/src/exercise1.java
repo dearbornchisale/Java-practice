@@ -48,13 +48,16 @@ public class exercise1 {
 
     public static void main(String[] args) {
         int[] arr = generateRandomArray(7, 10, 99);
+
         displayArray(arr, "Original Array");
+
         int[] reversed = reverseArray(arr);
+
         displayArray(reversed, "Reverse Array");
+        
         boolean result = isPalindrome(arr);
 
         System.out.println("Is palindrome? " + result);
-        
 
     }
 }
