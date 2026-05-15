@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 
 import javax.security.auth.login.AccountNotFoundException;
 
@@ -16,7 +17,16 @@ public class exercise3 {
     }
 
     public static void processTransaction(BankAccount account, String type, double amount){
-        
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Withdraw or Deposit: ");
+        type = input.next();
+
+        if(type.equalsIgnoreCase("Withdraw")){
+            try{
+                
+            }
+        }
     }
 
     public static void main(String[] args) {
