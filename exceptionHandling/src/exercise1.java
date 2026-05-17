@@ -1,3 +1,5 @@
+package exceptionHandling.src;
+
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -24,6 +26,7 @@ public class exercise1 {
                 input.nextLine();
             }
         }
+        input.close();
 
         return num;
     }
@@ -90,6 +93,8 @@ public class exercise1 {
                 }
             }
         } while (ans.equalsIgnoreCase("yes"));
+
+        input.close();
 
     }
 }

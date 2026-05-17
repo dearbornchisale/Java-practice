@@ -1,3 +1,5 @@
+package arrayList.src;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
@@ -24,6 +26,8 @@ public class exercise2 {
                 scores.add(score);
             }
         }
+
+        input.close();
 
         return scores;
 
@@ -117,7 +121,7 @@ public class exercise2 {
     public static void removeFailedScores(ArrayList<Integer> scores) {
 
         for (int i = scores.size() - 1; i >= 0; i--) {
-            
+
             if (scores.get(i) < 60) {
                 scores.remove(i);
             }
@@ -140,8 +144,7 @@ public class exercise2 {
         ArrayList<Integer> average = getAboveAverageScores(scoreList, avg);
 
         System.out.println("Show scores above average: " + average);
-        input.nextLine(); 
-      
+        input.nextLine();
 
         System.out.println("Plese enter curve points: ");
         int curvePoints = input.nextInt();
@@ -152,6 +155,8 @@ public class exercise2 {
 
         System.out.println("After removing failed scores: ");
         removeFailedScores(scoreList);
+
+        input.close();
 
     }
 }

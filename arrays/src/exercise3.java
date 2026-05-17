@@ -1,3 +1,4 @@
+package arrays.src;
 import java.util.Arrays;
 
 public class exercise3 {

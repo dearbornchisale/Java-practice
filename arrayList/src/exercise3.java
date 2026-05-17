@@ -1,3 +1,5 @@
+package arrayList.src;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -6,6 +8,7 @@ import java.util.Scanner;
 public class exercise3 {
     public static ArrayList<Contact> addContacts() {
         Scanner input = new Scanner(System.in);
+        input.close();
         ArrayList<Contact> contacts = new ArrayList<>();
 
         System.out.println("Enter contact type 'stop' for name to finish");
@@ -140,6 +143,8 @@ public class exercise3 {
 
         sortContactsByName(contacts);
         displayAllContacts(contacts);
+
+        input.close();
 
     }
 }

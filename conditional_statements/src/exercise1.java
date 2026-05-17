@@ -1,3 +1,4 @@
+package conditional_statements.src;
 import java.util.Scanner;
 
 public class exercise1 {
@@ -31,6 +32,8 @@ public class exercise1 {
             System.out.println("Your ticket will be:$ " + finalPrice);
    
         }
+
+        input.close();
          
     }
 }

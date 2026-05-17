@@ -1,3 +1,5 @@
+package arrays.src;
+
 import java.util.Random;
 
 public class exercise1 {

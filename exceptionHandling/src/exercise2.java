@@ -1,3 +1,4 @@
+package exceptionHandling.src;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -99,7 +100,8 @@ public class exercise2 {
         }catch(Exception e){
             System.out.print(e);
         }
-       
+       input.close();
     }
+ 
 }
                                                                                                                                                     

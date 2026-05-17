@@ -1,3 +1,5 @@
+package conditional_statements.src;
+
 import java.util.Scanner;
 
 public class exercise {
@@ -54,6 +56,8 @@ public class exercise {
         if (days == 29) {
             System.out.println("Its a leap year!!");
         }
+
+        input.close();
 
     }
 }

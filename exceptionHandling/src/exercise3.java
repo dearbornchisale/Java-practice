@@ -1,3 +1,4 @@
+package exceptionHandling.src;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -23,10 +24,10 @@ public class exercise3 {
         type = input.next();
 
         if(type.equalsIgnoreCase("Withdraw")){
-            try{
-                
-            }
+        
         }
+
+        input.close();
     }
 
     public static void main(String[] args) {

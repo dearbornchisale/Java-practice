@@ -1,9 +1,12 @@
+package arrayList.src;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class exercise1 {
     public static ArrayList<String> createPlaylist() {
         Scanner input = new Scanner(System.in);
+        input.close();
 
         ArrayList<String> songs = new ArrayList<>();
         boolean option = true;
@@ -110,5 +113,7 @@ public class exercise1 {
         System.out.println("After removing duplicates: ");
 
         displayPlaylist(songList, "Heavy Rotation");
-     }
+
+        input.close();
+    }
 }

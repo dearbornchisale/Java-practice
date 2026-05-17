@@ -1,3 +1,4 @@
+package conditional_statements.src;
 import java.util.Scanner;
 
 public class exercise3 {
@@ -23,5 +24,7 @@ public class exercise3 {
         } else {
             System.out.println("Approved:R  " + requestAmount + " withdrawn.New balance:R " + accountBalnce);
         }
+
+        input.close();
     }
 }

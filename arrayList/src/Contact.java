@@ -1,3 +1,5 @@
+package arrayList.src;
+
 public class Contact {
     String name;
     String phoneNumber;

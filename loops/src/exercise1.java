@@ -1,3 +1,5 @@
+package loops.src;
+
 import java.util.Scanner;
 
 public class exercise1 {
@@ -25,6 +27,8 @@ public class exercise1 {
         int n = input.nextInt();
 
         printPattern(n);
+
+        input.close();
 
 
     }

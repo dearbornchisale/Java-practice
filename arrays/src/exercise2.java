@@ -1,3 +1,4 @@
+package arrays.src;
 import java.util.Scanner;
 
 public class exercise2 {
@@ -17,6 +18,8 @@ public class exercise2 {
             grades[i] = mark;
 
         }
+
+        input.close();
 
         return grades;
 

@@ -1,4 +1,4 @@
-
+package methods.src;
 public class exercise2 {
     public static int[] combineArrays(int[] arr1, int[] arr2) {
 

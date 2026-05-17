@@ -1,9 +1,12 @@
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.Test;
+package unitTesting.src;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.*;
 
 public class CalculatorTest {
     @Test
-    void testAdd() {
+    public void testAdd() {
         Calculator calc = new Calculator();
 
         assertEquals(5, calc.add(2, 3));
@@ -11,7 +14,7 @@ public class CalculatorTest {
     }
 
     @Test
-    void testSubtract() {
+    public void testSubtract() {
         Calculator calc = new Calculator();
 
         assertEquals(2, calc.subtract(5, 3));
@@ -19,7 +22,7 @@ public class CalculatorTest {
     }
 
     @Test
-    void testMultiply() {
+    public void testMultiply() {
         Calculator calc = new Calculator();
 
         assertEquals(6, calc.multiply(2, 3));

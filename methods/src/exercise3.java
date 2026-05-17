@@ -1,4 +1,4 @@
-
+package methods.src;
 
 import java.util.Scanner;
 
@@ -19,7 +19,7 @@ public class exercise3 {
             arr1[i] = arr;
             boolean isPrime = isPrime(arr);
             if (isPrime == true) {
-                int [] primeArry = new int [i];
+                int[] primeArry = new int[i];
             }
 
         }
@@ -52,6 +52,8 @@ public class exercise3 {
         for (int num : result) {
             System.out.print(num + " ");
         }
+
+        input.close();
 
     }
 }

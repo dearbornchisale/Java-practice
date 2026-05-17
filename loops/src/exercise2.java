@@ -1,3 +1,5 @@
+package loops.src;
+
 import java.util.Scanner;
 
 public class exercise2 {
@@ -27,9 +29,9 @@ public class exercise2 {
             String ans = input.next().toUpperCase();
 
             if (!ans.equals("YES")) {
-                playAgain = false;  
+                playAgain = false;
             }
-
+            input.close();
         }
 
     }

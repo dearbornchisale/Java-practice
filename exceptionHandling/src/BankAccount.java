@@ -1,3 +1,4 @@
+package exceptionHandling.src;
 import java.util.ArrayList;
 
 public class BankAccount {
@@ -56,12 +57,12 @@ public class BankAccount {
     public void transfer(BankAccount recipient, double amount) throws InvalidTransactionException {
         if (amount <= 0) {
             throw new InvalidTransactionException("Invalid transaction amount !:(");
-        }else if(amout > balance){
+        }else if(amount > balance){
             throw new InvalidTransactionException("Insufficient funds to transfer :(");
         }
 
         this.balance -= amount;
-        recipient.balance += amount
+        recipient.balance += amount;
         
         transactionHistory.add("Successfully transferred R" + amount + " to " + recipient.getAccountHolder());
     }

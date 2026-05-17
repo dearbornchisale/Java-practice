@@ -1,3 +1,5 @@
+package methods.src;
+
 import java.util.Scanner;
 
 public class exercise1 {
@@ -29,6 +31,7 @@ public class exercise1 {
             System.out.println("Invalid Number ");
 
         }
+        input.close();
 
     }
 
